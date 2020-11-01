@@ -1,9 +1,9 @@
-<div>
-  <h2><%= @customer.full_name %></h2>
+<div class="customer_container">
+  <h2><%= customer.full_name %></h2>
 
-  <%= image_tag @customer.image %>
+  <%= image_tag(customer.image, size: "140x200") %>
 
-  <h4><%= @customer.email %></h4>
-  <h4><%= @customer.phone_number %></h4>
-  <h4><%= @customer.notes %></h4>
+  <h4><%= customer.email %></h4>
+  <h4><%= customer.phone_number %></h4>
+  <h4><%= customer.notes %></h4>
 </div>

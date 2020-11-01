@@ -1,0 +1,8 @@
+
+<h1>Customer Missing Emails</h1>
+<div>
+  <% @customers.each do |customer| %>
+    <%= render partial: 'customer', object: customer %>
+  <% end %>
+</div>
+
