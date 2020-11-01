@@ -1,6 +1,6 @@
 
 <h1>All Customers Alphabetized</h1>
-<div>
+<div class="customers_container">
   <% @customers.each do |customer| %>
     <%= render partial: 'customer', object: customer %>
   <% end %>
